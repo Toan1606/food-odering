@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: INVENTORY-SERVICE
+server:
+  port: 8082
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true

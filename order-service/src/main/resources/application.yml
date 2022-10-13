@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ORDER-SERVICE
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:food_ordering
+server:
+  port: 8083
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
